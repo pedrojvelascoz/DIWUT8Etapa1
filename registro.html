@@ -43,6 +43,17 @@
                     <option value="XL">XL</option>
                 </select>
             </div>
+            <div class="form-group flex">
+                <label>Métodos de Pago<span>*</span>:</label><br>
+                <input type="checkbox" id="tarjeta" name="metodo-pago" value="tarjeta" required>
+                <label for="tarjeta">Tarjeta</label><br>
+                <input type="checkbox" id="paypal" name="metodo-pago" value="paypal">
+                <label for="paypal">PayPal</label><br>
+                <input type="checkbox" id="bizum" name="metodo-pago" value="bizum">
+                <label for="bizum">Bizum</label><br>
+                <input type="checkbox" id="transferencia" name="metodo-pago" value="transferencia">
+                <label for="transferencia">Transferencia</label><br>
+            </div>
             </div>
             <div class="form-group flex">
                 <input type="checkbox" id="terms" name="terms" required>
@@ -50,6 +61,7 @@
             </div>
             <div class="form-group">
                 <button type="submit">Registrarse</button>
+                <small id="must">Todos los campos marcados con un asterisco (*) son obligatorios.</small>
             </div>
         </fieldset>
     </form>

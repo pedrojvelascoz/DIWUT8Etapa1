@@ -80,3 +80,15 @@ button:hover {
     display: flex;
     align-items: center;
 }
+
+.form-group.flex label {
+    margin-right: 10px;
+    white-space: nowrap;
+}
+
+#must {
+    display: block; 
+    margin-top: 5px;
+    text-align: center;
+}
+
